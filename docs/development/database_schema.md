@@ -113,7 +113,7 @@ of the filename should be an integer such as `01`, to put the file in the right 
 ### SQL delta files
 
 These should be named `*.sql`, or —  for changes which should only be applied for a
-given database engine — `*.sql.posgres` or `*.sql.sqlite`. For example, a delta which
+given database engine — `*.sql.postgres` or `*.sql.sqlite`. For example, a delta which
 adds a new column to the `foo` table might be called `01add_bar_to_foo.sql`.
 
 Note that our SQL parser is a bit simple - it understands comments (`--` and `/*...*/`),
